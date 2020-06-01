@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background-color: white;
+	font-family: "Montserrat", Sans-serif;
+	height:100%;
+}
+header{
+	background: linear-gradient(-1deg,#ee7752, #e73c7e, #23a6d5);
+	background-size: 400% 400%;
+	color:white;
+	height: 300px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+header > .titulo{
+	grid-column: span 1;
+	margin: 10px;
+}
+#BriskiParts{
+	margin-top: 20px;
+
+}
+.titulo{
+	display: grid;
+
+}
+.menu{
+	display: grid;
+	grid-column: span 2;
+	grid-template-columns: repeat(4, 1fr);
+	margin-right: 70px;
+}
+.botones{
+	grid-column: span 4;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+.menu > .ofertas{
+	grid-column: span 4;
+}
+.ofertas{
+	width: 100%;
+	overflow: hidden;
+}
+.ul{
+	display: flex;
+	width: 800%;
+	animation: cambio 60s infinite;
+	animation-direction: alternate;
+}
+@keyframes cambio{
+	12.5%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+
+	37.5%{margin-left: -200%;}
+
+	50%{margin-left: -300%;}
+
+	62.5%{margin-left: -400%;}
+
+	75%{margin-left: -500%;}
+
+	87.5%{margin-left: -600%;}
+
+	100%{margin-left: -700%;}
+
+
+
+}
+footer{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+	background-size: 400% 400%;
+	color: white;
+}
+.Ventas{
+	background-color: white;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+.VentasCarrito{
+	background-color: white;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+.Container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap:1em;
+	width: 90%;
+	margin: 1em auto;
+}
+.ProductosVentas{
+	border: 2px solid #23a6d5;
+}
+#Aside{
+	width: 100%;
+	display: grid;
+}
+.Container > .Ventas{
+	grid-column: span 4;
+	gap:1em;
+}
+.Container > .VentasCarrito{
+	grid-column: span 5;
+	gap:1em;
+}
+.Productos{
+	border: 2px solid #23a6d5;
+	border-radius: 2px;
+	padding: 5px;
+	display: grid;
+	grid-template-rows: 1fr .2fr;
+}
+.Container > .ProductosVentas{
+	grid-column: span 1;
+	gap:1em;
+	padding: 5px;
+}
+.Computadoras{
+	width: 100%;
+}
+.imagenes{
+	width: 100%;
+}
+.BotonAgregar{
+	background-color: red;
+	width: 100%;
+	grid-row: 10px;
+	border-radius: 10px;
+	color: white;
+	display: grid;
+}
+.Comprar{
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+.IniReg{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.Registro{
+	margin: 1em auto;
+	width: 50%;
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+}
+.Entrada{
+	width: 100%;
+}
+.EntradaRegistro{
+	height: 30px;
+	width: 100%;
+}
+.Inicio{
+	margin: 1em auto;
+	width: 50%;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+}

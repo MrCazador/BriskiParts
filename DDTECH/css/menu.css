@@ -1,0 +1,33 @@
+#menu{
+	background-color: #21211C;
+	top:0;
+	width: 100%;
+	display: flex;
+}
+#BtnMenu{
+	float: left;
+	display: inline-block;
+}
+#BuscadorDerecha{
+	/*float:left;*/
+}
+#contornoBuscador{
+	margin-left: 10px; 
+}
+.BtnMenu{
+	display:inline-block;
+	padding: 10px;,
+}
+#TamañoBuscador{
+	padding: 0px;
+}
+#contenedorHeader{
+}
+header{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tabla{
+	float: left;
+}
