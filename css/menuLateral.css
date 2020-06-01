@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px){
+	.menuLateral{
+		width: 20%;
+	}
+	.producto{
+		width: 70%;
+	}
+}
+#recoFixed{
+}

@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #1C1C1E;
+	font-family: "Montserrat", Sans-serif;
+	color:white;
+}
+img{
+	width: 50%;
+}
+#muestra{
+	margin-top:20px;
+}
+#BtnBuscar{
+	background-color: #E14043;
+	margin-left:-4px;
+	height: 10%;
+	color: white;
+	border-radius: 0 30px 30px 0;
+}
+#TituloMenu{
+	border-radius: 25px 25px 0 0;
+	color: white;
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin: 8px;
+}
+.contenedores{
+	
+
+}
+#add{
+	border-radius: 15px;
+	width: 80%;
+	padding: 15px; 
+	background-color: #E14043;
+	border-style:none;
+}
+#add:hover{
+	border-radius: 15px;
+	padding:15px; 
+	background-color: #5a82e4;
+
+}
+#buscador{
+	border:0;
+	border-radius: 30px 0 0 30px ;
+	width: 100%;
+	height: 33px;
+	font-size: 20px;
+	left: 5px;
+	padding: 0px;
+	outline: none;
+}
+
+.producto{ 
+	border-left: 0;
+	padding-top: 11px;
+}
+li.compus{
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	border-bottom:2px solid #e8e8e8;
+	border-left:2px solid #e8e8e8;
+	border-top:1px solid #e8e8e8;
+	border-right:2px solid #e8e8e8;
+}
+#Gamers{
+	top:100px;
+}
+#Diseño{
+	top:200px;
+}
+#Simulacion{
+	top:300px;
+}
+#Oficina{
+	top:400px;
+}
+#Casas{
+	top:500px;
+}
+.ContArriba{
+	background-color: #21211C;
+	border-radius: 25px 25px 0 0;
+	padding: 3px;
+}
+#Anuncio{
+}
+#contAnuncio{
+	background-color: blue;
+	border-radius: 20px;
+	width: 97%;
+	position: static;
+	height: 50px;
+	margin:0;
+}
+
+@media screen and (min-width: 800px){
+	.contenedores{
+		width: 20%;
+		text-align: center;
+		color: white;
+		font-family:Arial Rounded MT Bold;
+		text-transform: uppercase;
+		float: left;
+		height: 80%;
+		border-radius: 25px 25px 25px 25px;
+		background-color: #21211C;
+		margin: 10px;
+		padding: 10px;	
+	}
+	.cuerpo100{
+		float: left;
+	}
+}
+@media screen and (max-width: 800px){
+	.margenMenu{
+		margin-right: 20px;
+		margin-left: 10px; 
+		padding: 0px; 
+	}
+	#nav{
+		padding: 0px;
+	}
+	.contenedores{
+		text-align: center;
+		color: white;
+		font-family:Arial Rounded MT Bold;
+		text-transform: uppercase;
+		float: left;
+		height: 80%;
+		border-radius: 25px 25px 25px 25px;
+		background-color: #21211C;
+		margin: 10px;
+		padding: 10px;	
+	}
+}
+#footer{
+	background-color: red;
+	float: left;
+	width: 100%
+}
