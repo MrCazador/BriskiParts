@@ -1,6 +1,6 @@
 <header class="Presentacion">
             <div class="titulo">
-                <h1 id="BriskiParts"/>BriskiParts</h1>
+                <h1 id="BriskiParts">BriskiParts</h1>
                 <div class="Reseña">
                     <p>Bienvenidos a BrisquiParts, esperemos ofreceter lo que busques, y no dudes en preguntar las dudas que tengas por medio de nuestras redes sociales</p>
                 </div>

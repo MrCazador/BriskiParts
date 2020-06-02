@@ -1,6 +1,17 @@
+<?php
+require_once('control/ctrlConecta.php');
+require_once('modelo/CUsuario.php');
+require_once('modelo/CCliente.php');
+require_once('modelo/CProducto.php');
+$usuario=new CUsuario();
+$cliente=new CCliente();
+$producto=new CProducto();
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Fira+Sans+Condensed:ital@1&display=swap" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <meta charset="UTF-8">
         <title>DDTECH</title>
