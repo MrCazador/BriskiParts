@@ -21,5 +21,8 @@ switch($pg){
     case 5:
         include('vista/sesion.php');    
     break;
+    case 6:
+        include('vista/producto.php');
+    break;
 }
 ?>

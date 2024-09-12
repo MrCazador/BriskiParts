@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Comfortaa', cursive;
 }
 body{
 	width: 100%;
@@ -103,6 +104,9 @@ footer{
 	width: 100%;
 	display: grid;
 }
+.IconosMenu{
+	width: 20%;
+}
 .Container > .Ventas{
 	grid-column: span 4;
 	gap:1em;
@@ -116,7 +120,7 @@ footer{
 	border-radius: 2px;
 	padding: 5px;
 	display: grid;
-	grid-template-rows: 1fr .2fr;
+	grid-template-rows: 1fr;
 }
 .Container > .ProductosVentas{
 	grid-column: span 1;
@@ -125,6 +129,11 @@ footer{
 }
 .Computadoras{
 	width: 100%;
+	display: flex;
+}
+.nombreMenu{
+	padding: 20px;
+	width: 100%;;
 }
 .imagenes{
 	width: 100%;
@@ -163,10 +172,26 @@ a{
 .EntradaRegistro{
 	height: 30px;
 	width: 100%;
+	background-color: white;
+	border-style: none;
+	border-bottom: 1px solid blue;
+	outline: none;
+}
+.input[type=text] :focus{
+	background-color: white;
+	border: none;
 }
 .Inicio{
 	margin: 1em auto;
 	width: 50%;
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
+	gap:1em
+}
+.tituloSesion{
+	background-color: blue;
+	height: 40px;
+	color: white;
+	border-radius: 2px;
+	text-align: center;
 }
